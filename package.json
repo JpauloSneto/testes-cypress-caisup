@@ -1,8 +1,7 @@
 {
-  "name": "atv-teste",
+  "name": "testes-cypress-caisup",
   "version": "1.0.0",
-  "description": "",
-  "main": "cypress.config.js",
+  "description": "Suíte de testes Cypress da plataforma caisUp (E2E, API, responsividade, acessibilidade e desempenho)",
   "scripts": {
     "test": "cypress run",
     "test:abrir": "cypress open",
