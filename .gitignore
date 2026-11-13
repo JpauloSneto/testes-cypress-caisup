@@ -1,0 +1,19 @@
+# dependências (recriadas com npm install)
+node_modules/
+
+# saídas geradas a cada execução do Cypress
+cypress/reports/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# credenciais locais, se um dia forem usadas
+cypress.env.json
+.env
+
+# PDFs da entrega (ficam na pasta de entrega, não no repositório de código)
+entregaveis/
+
+# exercício antigo (OrangeHRM), fora do escopo do caisUp
+cypress/e2e/spec.cy.js
+cypress/fixtures/example.json
