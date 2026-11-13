@@ -68,3 +68,13 @@ O ID de cada caso de teste (CT-xx) está no nome do teste, para rastrear com a M
 | RISCO-01 | – | Código do backend usa uma chave JWT de reserva se `JWT_SECRET` faltar no servidor. Verificar no Render | Alta (se confirmado) |
 
 Causa e solução de cada defeito, com trechos de código: [SOLUCOES_BUGS.md](SOLUCOES_BUGS.md).
+
+## Evidências
+
+A execução completa usada no relatório final (13/11/2026, 10:35) está em
+[evidencias/execucao-2026-11-13_10-35](evidencias/execucao-2026-11-13_10-35):
+
+- [RESUMO.md](evidencias/execucao-2026-11-13_10-35/RESUMO.md): totais, falhas e o bug ligado a cada uma
+- [screenshots/](evidencias/execucao-2026-11-13_10-35/screenshots): print de cada teste que falhou
+- `index.html`: relatório completo do Cypress (mochawesome). O GitHub mostra só o código-fonte do HTML,
+  então baixe o arquivo (botão "Download raw file") e abra no navegador.
